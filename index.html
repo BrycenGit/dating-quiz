@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Dating Quiz</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Dating quiz</h1>
+
+    <p>Who do you love?</p>
+
+    <form id="quiz">
+      <label for="favoriteFood">1. Favorite food</label>
+      <div id="favoriteFood">  
+        <div class="radio">
+          <label>
+            <input type="radio" name="food" value="pizza" checked>
+            Pizza
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="food" value="pasta">
+            Pasta
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="food" value="tacos">
+            Tacos
+          </label>
+        </div>
+      </div>
+      <label for="favoriteActivity">2. Favorite activity</label>
+      <div id="favoriteActivity">  
+        <div class="radio">
+          <label>
+            <input type="radio" name="food" value="biking" checked>
+            Biking
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="food" value="rowing">
+            Rowing
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="food" value="skiing">
+            Skiing
+          </label>
+        </div>
+      </div>
+      <label for="favoritePlace">3. Favorite place</label>
+      <div id="favoritePlace">  
+        <div class="radio">
+          <label>
+            <input type="radio" name="food" value="newZealand" checked>
+            New Zealand
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="food" value="hawaii">
+            Hawaii
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="food" value="russia">
+            Russia
+          </label>
+        </div>
+      </div>
+      <label for="favoriteRestaurant">4. Favorite restaurant</label>
+      <div id="favoriteRestaurant">  
+        <div class="radio">
+          <label>
+            <input type="radio" name="food" value="eem" checked>
+            Eem
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="food" value="luclac">
+            Luclac
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="food" value="hkcafe">
+            HK Cafe
+          </label>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Show me my date!</button>
+    </form>
+
+    <div id="result">
+      <p>You will date<span id="rate"></span>!</p>
+    </div>
+  </div>
+</body>
+</html>
