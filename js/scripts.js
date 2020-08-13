@@ -13,6 +13,9 @@ $(document).ready(function() {
     const total = (food) + (activity) + (place) + (restaurant);
     console.log(total);
 
+
+
+    
     if (total === 8 || total > 8) {
       $("#rock").show();
       $("#ryanReynolds").hide();
